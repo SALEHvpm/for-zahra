@@ -1,3 +1,28 @@
-h1{
-    font-size: 90px;
+*{
+    margin: 0;
+}
+.logo {
+ margin: auto;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0;
+}
+.de-a {
+  text-decoration: none;
+}
+.c-li {
+list-style-type: none;
+background-color: rgba(0, 255, 255, 0);
+display: inline;
+float: right;
+margin: 0 2px;
+padding: 14px 14px;
+border-radius: 10%;
+}
+.header-c{
+  width: auto;
+  height: 300px;
+  
+  
+  
+    background-color: rgba(0, 255, 255, 0.325);
 }
