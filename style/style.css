@@ -1,28 +1,47 @@
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
 .logo {
- margin: auto;
-  background-color: rgba(255, 255, 255, 0);
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.477);
+  color: black;
   border: 0;
 }
+/* decoration => de   de-a=> text-decoration: none; for <a></a>  */
 .de-a {
   text-decoration: none;
 }
-.c-li {
-list-style-type: none;
-background-color: rgba(0, 255, 255, 0);
-display: inline;
-float: right;
-margin: 0 2px;
-padding: 14px 14px;
-border-radius: 10%;
+/* header-a => tag a in header */
+.header-a {
+  color: rgb(0, 0, 0);
 }
-.header-c{
+.header-a:hover {
+  background-color: rgba(2, 255, 255, 0.805);
+  padding: 12px 13px ;
+  border-radius: 10%;
+  font-size: 20px;
+}
+/* c=> class  /  c-li => class for list(li) */
+.c-li {
+  list-style-type: none;
+  background-color: rgba(255, 255, 255, 0.17);
+  display: inline;
+  float: right;
+  margin: 0 2px;
+  padding: 3px 3px;
+  border-radius: 10%;
+}
+.c-li:hover{
+  background-color: rgba(255, 255, 255, 0);
+}
+/* header-c => class for header */
+.header-c {
   width: auto;
   height: 300px;
-  
-  
-  
-    background-color: rgba(0, 255, 255, 0.325);
+
+  background-image: url(../img/my\ baby\ backgrand.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-clip: content-box;
 }
