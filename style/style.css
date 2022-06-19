@@ -3,15 +3,15 @@
 }
 @font-face {
   font-family: "Brannboll_Ny_PersonalUseOnly";
-  src: url(../fonts/Brannboll_Ny_PersonalUseOnly.eot) format('eot'),
-       url(../fonts/Brannboll_Ny_PersonalUseOnly.woff) format('woff'),
-       url(../fonts/Brannboll_Ny_PersonalUseOnly.ttf) format('ttf');
+  src: url(../fonts/Brannboll_Ny_PersonalUseOnly.eot) format("eot"),
+    url(../fonts/Brannboll_Ny_PersonalUseOnly.woff) format("woff"),
+    url(../fonts/Brannboll_Ny_PersonalUseOnly.ttf) format("ttf");
 }
 @font-face {
   font-family: "Digi Delbar2 Bold ";
-  src: url(../fonts/Digi\ Delbar2\ Bold\ .eot) format('eot'),
-       url(../fonts/Digi\ Delbar2\ Bold\ .woff) format("woff"),
-       url(../fonts/Digi\ Delbar2\ Bold\ .ttf) format('ttf');
+  src: url(../fonts/Digi\ Delbar2\ Bold\ .eot) format("eot"),
+    url(../fonts/Digi\ Delbar2\ Bold\ .woff) format("woff"),
+    url(../fonts/Digi\ Delbar2\ Bold\ .ttf) format("ttf");
 }
 
 /* font- family -- font-fa=> font (farsi/ persian)  font-en=> font english*/
@@ -20,6 +20,13 @@
 }
 .font-en {
   font-family: "Brannboll_Ny_PersonalUseOnly";
+}
+.c-body-bg {
+  background-image: url(../img/my\ baby\ backgrand.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: cover; */
+  background-clip: content-box;
 }
 .logo {
   margin: auto;
@@ -59,10 +66,17 @@
 .header-c {
   width: auto;
   height: 300px;
-
-  background-image: url(../img/my\ baby\ backgrand.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-clip: content-box;
+}
+/* c-main=> class for main  */
+.c-main {
+  /* background: rgb(131, 12, 115);
+  background: linear-gradient(
+    60deg,
+    rgba(201, 20, 177, 0.625) 35%,
+    rgba(5, 108, 128, 0.608) 100% */
+  );
+}
+/* c-h1-main => class <h1> on <main> */
+.c-h1-main {
+  direction: rtl;
 }
