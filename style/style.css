@@ -1,11 +1,32 @@
 * {
   margin: 0;
 }
+@font-face {
+  font-family: "Brannboll_Ny_PersonalUseOnly";
+  src: url(../fonts/Brannboll_Ny_PersonalUseOnly.eot) format('eot'),
+       url(../fonts/Brannboll_Ny_PersonalUseOnly.woff) format('woff'),
+       url(../fonts/Brannboll_Ny_PersonalUseOnly.ttf) format('ttf');
+}
+@font-face {
+  font-family: "Digi Delbar2 Bold ";
+  src: url(../fonts/Digi\ Delbar2\ Bold\ .eot) format('eot'),
+       url(../fonts/Digi\ Delbar2\ Bold\ .woff) format("woff"),
+       url(../fonts/Digi\ Delbar2\ Bold\ .ttf) format('ttf');
+}
+
+/* font- family -- font-fa=> font (farsi/ persian)  font-en=> font english*/
+.font-fa {
+  font-family: "Digi Delbar2 Bold ";
+}
+.font-en {
+  font-family: "Brannboll_Ny_PersonalUseOnly";
+}
 .logo {
   margin: auto;
   background-color: rgba(255, 255, 255, 0.477);
   color: black;
   border: 0;
+  font-size: 28px;
 }
 /* decoration => de   de-a=> text-decoration: none; for <a></a>  */
 .de-a {
@@ -17,7 +38,7 @@
 }
 .header-a:hover {
   background-color: rgba(2, 255, 255, 0.805);
-  padding: 12px 13px ;
+  padding: 12px 13px;
   border-radius: 10%;
   font-size: 20px;
 }
@@ -31,7 +52,7 @@
   padding: 3px 3px;
   border-radius: 10%;
 }
-.c-li:hover{
+.c-li:hover {
   background-color: rgba(255, 255, 255, 0);
 }
 /* header-c => class for header */
